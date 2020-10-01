@@ -1,0 +1,472 @@
+/****************
+Night Mood
+****************/
+
+.btn-night-mode .btn-night-mode-switch {
+    display: inline-block;
+    height: 18px;
+    width: 37px;
+    right: 25px;
+    position: absolute;
+    margin-top: 3px;
+}
+
+.btn-night-mode .uk-switch-button {
+    background-color: rgba(0, 0, 0, 0.09);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 500px;
+    bottom: 0;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: .2s;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.07);
+}
+
+.btn-night-mode .uk-switch-button:before {
+    content: '';
+    background-color: #a9a9a9;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 0px;
+    bottom: -1px;
+    border-radius: 50%;
+    transition-property: transform, box-shadow;
+    transition-duration: .2s;
+}
+
+.night-mode .btn-night-mode .uk-switch-button {
+    background-color: #4e4e4e !important;
+}
+
+.night-mode .btn-night-mode .uk-switch-button:before {
+    transform: scale(1.3);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.22);
+    transform: translateX(17px);
+    background: #62d76b;
+}
+
+
+
+.night-mode body , 
+.night-mode .page-content ,
+.night-mode .footer {
+    background-color: #131313 !important;
+    border-color: #545454 !important;
+    color: white !important;
+}
+
+ 
+  
+/* header bg before  */
+.night-mode .dropdown-option-nav:before {
+    border-bottom-color: #2c2b2f;
+}
+
+
+/* all theme custom cards */
+.night-mode .course-card, .night-mode .course-card-resume, .night-mode .course-path-card, .night-mode .course-curriculum .uk-accordion-content, .night-mode .course-faq>li.uk-open, .night-mode .skill-card, .night-mode .course-curriculum>li, .night-mode .review-summary-avg, .night-mode .blog-post, .night-mode .blog-article-content-read, .night-mode .pricing-plans-container, .night-mode #book-popular .book-popular-card, .night-mode .side-nav, .night-mode .side-nav ul li .side-menu-slide, .night-mode .side-nav .side-nav-bg, .night-mode .page-menu, .night-mode .page-menu.menu-large .logo, .night-mode .course-curriculum li.uk-open .uk-accordion-title, .night-mode .side-nav .logo, .night-mode .course-curriculum-list>li:hover, .night-mode .mobile-header, .night-mode .header, .night-mode .pricing-card, .night-mode #navigation ul ul, .night-mode .dropdown-notifications-footer, .night-mode .course-resume-wrapper .subnav, .night-mode .admin-panel .header, .night-mode .admin-panel .header .header-widget, .night-mode .admin-panel .page-menu .logo, .night-mode .btn-menu-trigger, .night-mode .chats-container, .night-mode .chats-headline, .night-mode .message-time-sign span{
+    background-color: #201f23 !important;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.10196078431372549) !important;
+}
+.night-mode .admin-panel .page-menu { background-color:transparent !important} 
+.night-mode .admin-panel .page-menu.menu-large {background-color: #201f23 !important;} 
+
+@media (max-width:960px){
+  .night-mode .course-card {
+     background-color: #131313 !important;
+  }
+  .night-mode .logo img:not(.logo-flip){
+      display:none
+  }
+  .logo-flip{
+      display:none
+  }
+}
+
+/* remove searchbox dropdown trainlge */
+.night-mode .erh {
+    display:none
+}
+
+.night-mode .course-card h4,
+.night-mode .course-catagory-tag ,
+.night-mode .countdown .box .countdown-text ,
+.night-mode .countdown .box .uk-countdown-number  , 
+.night-mode .dropdown-notifications-content ul li a{
+    color: #dbdbdb !important;
+}
+
+.night-mode .course-catagory-tag, .night-mode .course-details h6, .night-mode .dropdown-notifications-content ul li:hover, .night-mode .notifications-not-read, .night-mode, .night-mode .dropdown-notifications-headline, .night-mode ul.dropdown-search-list .list-title, .night-mode ul.dropdown-search-list li a:hover, .night-mode .setting-menu ul li a:hover, .night-mode .chats-inbox ul li.active-message, .night-mode .message-bubble.me .message-text, .night-mode .message-bubble .message-text, .night-mode .message-reply textarea ,  .night-mode .chats-headline input  {
+    background-color: #373639 !important;
+}
+
+.night-mode .course-card.course-card-list {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.night-mode .course-progressbar {
+    background-color: #5f5f5f;
+}
+
+/*  course-curriculum */
+.night-mode .course-curriculum-list>li>a {
+    background: #4c4c4c;
+    color: #4ed7a8;
+}
+
+/* course path */
+.night-mode .course-path-card-footer,
+.night-mode .course-path-card::after,
+.night-mode .course-path-card::before,
+.night-mode .path-wrap .course-card.completed .course-card-body {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+/* Titles & texts */
+.night-mode .uk-h1,
+.night-mode h1,
+.night-mode .uk-h2,
+.night-mode h2,
+.night-mode .uk-h3,
+.night-mode h3,
+.night-mode .uk-h4,
+.night-mode h4,
+.night-mode .uk-h5,
+.night-mode h5,
+.night-mode .uk-h6,
+.night-mode h6,
+.night-mode .uk-text-black,
+.night-mode .uk-text-danger,
+.night-mode .uk-text-primary,
+.night-mode .uk-text-sucess,
+.night-mode .uk-text-muted,
+.night-mode .uk-card-default .uk-card-title,
+.night-mode .uk-card-default,
+.night-mode .uk-text-lead,
+.night-mode .text-black,
+.night-mode .text-danger,
+.night-mode .text-primary,
+.night-mode .text-sucess,
+.night-mode .text-muted,
+.night-mode .text-lead,
+.night-mode .skill-card-subtitle ,
+.night-mode .search-input-control .search-help {
+    color: #dbdbdb !important;
+}
+
+
+/* Buttons */
+.night-mode .button,
+.night-mode .btn,
+.night-mode .btn.btn-danger,
+.night-mode .btn.btn-grey,
+.night-mode .btn.btn-info,
+.night-mode .btn.btn-warning,
+.night-mode .btn.btn-white,
+.night-mode .btn.btn-success,
+.night-mode .btn.btn-secondary,
+.night-mode .btn.btn-primary,
+.night-mode .btn.btn-light,
+.night-mode .btn.btn-default, 
+.night-mode .uk-button-default ,
+.night-mode .Markup-botton, 
+.night-mode :not(pre)>code,
+.night-mode .uk-label,
+.night-mode .uk-icon-button,
+.night-mode .uk-pagination>*>*,
+.night-mode .uk-modal-close-full,
+.night-mode .uk-tooltip,
+.night-mode .display-as a.active,
+.night-mode .select_mate,
+.night-mode .cont_select_int .active,
+.night-mode .cont_select_int li,
+.night-mode .course-category-list a,
+.night-mode .slidenav-next,
+.night-mode .slidenav-prev,
+.night-mode #backtotop a,
+.night-mode .display-as .active,
+.night-mode .btn-filter,
+.night-mode .Markup-botton ,
+.night-mode .slide-nav-next.uk-invisible:hover  ,
+.night-mode .responsive-tab.style-1 li a{
+    background: #201f23;
+    border-color: transparent;
+    color: white;
+}
+
+/* button hover */
+.night-mode .Markup-botton:hover,
+.night-mode :not(pre)>code:hover,
+.night-mode .uk-label:hover,
+.night-mode .uk-icon-button:hover,
+.night-mode .uk-modal-close-full:hover,
+.night-mode .select_mate:hover,
+.night-mode .cont_select_int .active:hover,
+.night-mode .cont_select_int li:hover,
+.night-mode .course-category-list a:hover,
+.night-mode .uk-pagination>.uk-active>*,
+.night-mode .slidenav-next:hover,
+.night-mode .slidenav-prev:hover,
+.night-mode #backtotop a:hover,
+.night-mode .btn-filter:hover,
+.night-mode span.item-tag,
+.night-mode a.blog-post-info,
+.night-mode .blog-post-info,
+.night-mode .blog-post-date,
+.night-mode .comment-by a.reply,
+.night-mode .btn-course-start,
+.night-mode .Markup-botton:hover,
+.night-mode .Markup-botton::before ,
+.night-mode .pricing-plan-label ,
+.night-mode .pricing-plan .btns ,
+.night-mode .btn-mobile ,
+.night-mode .side-nav .tooltips ,
+.night-mode .grid-slider-header .slide-nav-prev, 
+.night-mode .grid-slider-header .slide-nav-next  ,
+.night-mode .responsive-tab.style-1 li.uk-active a ,
+.night-mode .comment-footer button{
+    background-color: #393942;
+    color: white !important;
+}
+
+
+
+/* reset links */
+.night-mode a, .night-mode #breadcrumbs, .night-mode .uk-accordion .uk-accordion-title, .night-mode .uk-accordion-title::before, .night-mode .course-curriculum-list>li, .night-mode .dropdown-user-name, .night-mode .dropdown-user-name span, .night-mode .footer p, .night-mode .comment-by, .night-mode .glyph.fs1 .mls:not([class*="icon-"]), .night-mode .pricing-plan-label strong, .night-mode .pricing-plan-features strong, .night-mode .pricing-swicher > .uk-active > a{
+    color: #c7c7c7 !important;
+}
+
+.night-mode a:hover, .night-mode #breadcrumbs ul li a, .night-mode .uk-accordion .uk-open .uk-accordion-title, .night-mode .uk-accordion-title::before, .night-mode .responsive-tab.style-2.uk-active, .night-mode .responsive-tab .uk-active a, .night-mode .uk-tab>.uk-active>a, .night-mode .course-info-list-single-icon, .night-mode .glyph.fs1, .night-mode .course-curriculum-list>li:before, .night-mode .side-nav .logo i, .night-mode .page-menu .logo i  , .night-mode #navigation ul ul li a:hover{
+    color: white !important;
+}
+
+.night-mode .select_mate span svg {
+    fill: #dbdbdb
+}
+
+
+/* all borders  */
+.night-mode .sidebar-filter-list .uk-accordion-title, .night-mode .section-header, .night-mode ul.dropdown-user-menu .menu-divider, .night-mode .course-info-list-single, .night-mode .blog-post.blog-post-card .blog-post-footer, .night-mode .profile-cards-footer, .night-mode .footer, .night-mode ul.dropdown-search-list .list-title, .night-mode ul.dropdown-search-list .menu-divider, .night-mode .course-path-card, .night-mode .course-path-card-footer, .night-mode .course-card, .night-mode .course-curriculum-list>li:before, .night-mode ul.dropdown-menu .menu-divider, .night-mode .search-input-control input, .side-menu-slide-content .uk-accordion-content, .night-mode .footer, .night-mode .page-menu .logo, .night-mode .dropdown-notifications-content ul li, .night-mode .dropdown-notifications-headline, .night-mode .dropdown-user-details, .night-mode .card, .night-mode .card-footer, .night-mode .uk-card-header, .night-mode .chats-headline, .night-mode .chats-container-inner .chats-inbox, .night-mode .table th, .night-mode .table td, .night-mode .message-reply textarea, .night-mode .message-reply , .night-mode .chats-headline input  {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+
+.night-mode .uk-tab>.uk-active>a {
+    border-color:white !important
+}
+
+/* Remove border color  */
+.night-mode .side-nav ul li .side-menu-slide ul li a ,
+.night-mode .review-summary-avg,
+.night-mode .course-video-list-section .uk-accordion-title,
+.night-mode .course-path-level .uk-accordion-title,
+.night-mode .course-faq>li.uk-open,
+.night-mode .course-faq .uk-accordion-content,
+.night-mode ul.course-video-list-2 li a,
+.night-mode .footer,
+.night-mode .uk-tab::before,
+.night-mode .btn-course-start   ,
+.night-mode .pricing-plan .btns ,
+.night-mode .course-card-footer ,
+.night-mode .course-curriculum>li ,
+.night-mode .course-curriculum .uk-accordion-content , 
+.night-mode #navigation ul ul:after , 
+.night-mode .dropdown-notifications-footer  ,
+.night-mode .comment-footer button ,
+.night-mode .header-widget .dropdown-notifications:before {
+    border-color: transparent;
+}
+
+
+
+/* reset all bg */
+.night-mode .bg-primary,
+.night-mode .bg-secondary,
+.night-mode .bg-success,
+.night-mode .bg-info,
+.night-mode .bg-warning,
+.night-mode .bg-danger,
+.night-mode .bg-grey,
+.night-mode .bg-light,
+.night-mode .bg-dark ,
+.night-mode .topic-1, 
+.night-mode .topic-2, 
+.night-mode .topic-3, 
+.night-mode .topic-4, 
+.night-mode .topic-5, 
+.night-mode .topic-6, 
+.night-mode .topic-7, 
+.night-mode .topic-8, 
+.night-mode .topic-9, 
+.night-mode .topic-10 {
+    background-color: #201f23 !important;
+}
+
+.night-mode .bg-white, 
+.night-mode .bg-transparent, 
+.night-mode .display-as ,
+.night-mode .slide-nav-next.uk-invisible ,
+.night-mode .searchbox{
+    background-color: #131313 !important;
+}
+
+.night-mode .responsive-tab:before ,
+.night-mode .responsive-tab .uk-active a:before ,
+.night-mode .responsive-tab.style-4 :before{
+    background: transparent;
+}
+
+/* course videos lesson */
+.night-mode .course-header {
+    background-color: #201f23;
+}
+
+.night-mode .course-sidebar,
+.night-mode .course-sidebar-title,
+.night-mode ul.course-video-list-2 li a {
+    background-color: #2d2c31;
+}
+
+.night-mode .course-video-list li>a {
+    background-color: #2d2c31;
+    color: #848484;
+}
+
+.night-mode .highlight-watched .watched a,
+.night-mode .highlight-watched .watched.uk-active a {
+    background-color: #2d2c31 !important;
+    color: white !important;
+}
+
+.night-mode .course-video-list-section .uk-accordion-title {
+    background-color: #393942;
+    color: rgba(255, 255, 255, 0.6588235294117647);
+}
+
+.night-mode .course-video-list-section .uk-open .uk-accordion-title {
+    background-color: #393942;
+}
+
+.night-mode .course-video-list-section .uk-accordion-title::before {
+    color: rgba(255, 255, 255, 0.6588235294117647);
+}
+
+.night-mode .course-video-list-section .uk-accordion-title:hover,
+.night-mode .highlight-watched .watched a:hover,
+.night-mode .highlight-watched .watched.uk-active a:hover,
+.night-mode .course-video-list li>a:hover,
+.night-mode .course-video-list-section .uk-open .uk-accordion-title::before,
+.night-mode ul.course-video-list-2 li.uk-active a span.video-title {
+    color: white !important;
+}
+
+.night-mode .course-video-list li>a:before {
+    background: #ffffff52;
+    color: white;
+    font-size: 13px;
+}
+
+.night-mode ul.course-video-list-2 li a:hover,
+
+.night-mode ul.course-video-list-2 li.uk-active a {
+    background-color: #393942;
+}
+
+.night-mode ul.course-video-list-2 li a span.video-title {
+    color: rgba(255, 255, 255, 0.6588235294117647);
+}
+
+
+.night-mode ul.course-video-list-2 li.uk-active a img {
+    border-color: white;
+}
+
+.night-mode ul.course-video-list-2 li a span.now-playing {
+    background-color: white;
+    color: #393942;
+}
+
+/* responsive tab style-5 */
+.night-mode .responsive-tab.style-5 li.uk-active a:before {
+  background: url(../images/bg-shapes/tab-border-left-dark.png)no-repeat;
+  background-size: cover; 
+}
+.night-mode .responsive-tab.style-5 li.uk-active a:after {
+  background: url(../images/bg-shapes/tab-border-right-dark.png)no-repeat;
+  background-size: cover; 
+}
+.night-mode .responsive-tab.style-5 li.uk-active a{
+  background-color:#131313
+}
+
+.night-mode .blog-article-single {
+    border-radius: 0;
+}
+
+/* framework */
+.night-mode .uk-card-default, .night-mode .uk-card-primary, .night-mode .uk-card-muted, .night-mode .uk-card-secondary, .night-mode .uk-background-default, .night-mode .uk-background-muted, .night-mode .uk-background-primary, .night-mode .uk-background-secondary, .night-mode .bg-gradient-primary, .night-mode .bg-gradient-secondary, .night-mode .bg-gradient-success, .night-mode .bg-gradient-info, .night-mode .bg-gradient-warning, .night-mode .bg-gradient-danger, .night-mode .bg-gradient-light, .night-mode .bg-gradient-grey, .night-mode .night-mode .uk-alert, .night-mode .uk-input, .night-mode .uk-select, .night-mode .uk-textarea, .night-mode .uk-input:focus, .night-mode .uk-textarea:focus, .night-mode .uk-drop, .night-mode .uk-dropdown, .night-mode .uk-modal-dialog, .night-mode .uk-notification-message, .night-mode .uk-offcanvas-bar, .night-mode .uk-list-striped>li:nth-of-type(odd), .night-mode .uk-overlay-default, .night-mode .uk-table-striped>tr:nth-of-type(odd), .night-mode .uk-table-striped tbody tr:nth-of-type(odd), .night-mode .glyph.fs1:hover span:not([class*="mls"]) , .night-mode .card {
+    background: #201f23 !important;
+}
+
+.night-mode .uk-form-label ,
+.night-mode .glyph.fs1:hover span:not([class*="mls"]) {
+    color: #dbdbdb !important;
+}
+
+
+.night-mode *+hr,
+*+.night-mode .uk-hr,
+.night-mode .uk-heading-line> ::before,
+.night-mode .uk-heading-line> ::after,
+.night-mode .uk-input,
+.night-mode .uk-select,
+.night-mode .uk-textarea,
+.night-mode .uk-heading-divider,
+.night-mode .uk-input:disabled,
+.night-mode .uk-select:disabled, 
+.night-mode .uk-textarea:disabled ,
+.night-mode .uk-heading-bullet::before,
+.night-mode .uk-divider-small::after ,
+.night-mode .uk-list-divider>li:nth-child(n+2),
+.night-mode .uk-table-divider>tr:not(:first-child),
+.night-mode .uk-table-divider> :not(:first-child)>tr,
+.night-mode .uk-list-large.uk-list-striped>li:nth-of-type(odd),
+.night-mode .uk-table-divider> :first-child>tr:not(:first-child),
+.night-mode .uk-list-striped>li:nth-of-type(odd),
+.night-mode .uk-table-striped>tr:nth-of-type(odd),
+.night-mode .uk-table-striped tbody tr:nth-of-type(odd) {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.night-mode .pricing-plan.recommended ,
+.night-mode .countdown .box ,
+.night-mode .countdown-form ,
+.night-mode .hljs,
+.night-mode .syntaxhighlighter,
+.night-mode .syntaxhighlighter .line.alt1 ,
+.night-mode .syntaxhighlighter .line.alt2 , 
+.night-mode .glyph.fs1 ,
+.night-mode pre {
+    background-color: #393942 !important;
+}
+
+/* background-color level three */
+.night-mode .recommended .pricing-plan-label, .night-mode .countdown .box .countdown-text, .night-mode ul.dropdown-menu li a:hover, .night-mode .course-curriculum-list>li:before, .night-mode .search-overlay, .night-mode .is-active.header-widget , .night-mode ul.dropdown-user-menu li a:hover , .night-mode #navigation ul ul li a:hover  , .night-mode .course-card-trailer , .night-mode   {
+    background-color: #45454d !important;
+}
+
+.night-mode .message-bubble.me .message-text:before {  
+    border-left-color:    #373639; 
+}
+.night-mode .message-bubble .message-text:before { 
+   border-right-color: #373639;
+}
