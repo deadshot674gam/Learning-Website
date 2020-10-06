@@ -6,11 +6,10 @@
 
     <!-- Basic Page Needs
     ================================================== -->
-    <title>Learning Website</title>
+    <title>Blog Single</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-
 
     <!-- CSS 
     ================================================== -->
@@ -22,17 +21,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-
 </head>
 
 <body>
 
     <!-- Wrapper -->
-    <div id="wrapper" class="bg-white">
+    <div id="wrapper">
+
 
         <!-- Header Container
         ================================================== -->
-        <header class="header header-horizontal header bg-grey uk-light">
+        <header class="header header-horizontal">
 
             <div class="container">
                 <nav uk-navbar>
@@ -51,7 +50,7 @@
 
                         <!-- logo -->
                         <a href="dashboard.html" class="logo">
-                            <img src="http://demo.foxthemes.net/courseplusv3.3/assets/images/logo-dark.svg" alt="">
+                            <!-- <img src="http://demo.foxthemes.net/courseplusv3.3/assets/images/logo-dark.svg" alt=""> -->
                             <span> Courseplus</span>
                         </a>
 
@@ -60,19 +59,22 @@
                         <nav id="navigation">
                             <ul id="responsive">
                                 <li><a href="#">Home</a> </li>
-                                <li><a href="course-card.html">Explore</a></li>
+                                <li><a href="#">Explore</a></li>
                                 <li><a href="book.html">Book</a> </li>
                                 <li><a href="blog-main.html">Blog</a> </li>
                                 <li><a href="#">Pages</a>
                                     <ul class="dropdown-nav">
+                                        
                                         <li><a href="page-term.html">Terms</a></li>
                                         <li><a href="page-contact.html">Contact</a></li>
                                         <li><a href="#">Account</a>
                                             <ul class="dropdown-nav">
                                                 <li><a href="page-login.html">login</a></li>
                                                 <li><a href="page-register.html">register</a></li>
+                                                
                                             </ul>
                                         </li>
+                                        
                                     </ul>
                                 </li>
                             </ul>
@@ -88,50 +90,7 @@
 
                         <div class="header-widget">
 
-                            <div class="searchbox uk-visible@s">
-
-                                <input class="uk-search-input" type="search" placeholder="Search...">
-                                <button class="btn-searchbox"> </button>
-
-                            </div>
-                            <!-- Search box dropdown -->
-                            <div uk-dropdown="pos: top;mode:click;animation: uk-animation-slide-bottom-small"
-                                class="dropdown-search">
-                                <div class="erh BR9 MIw"
-                                    style="top: -27px;position: absolute ; left: 24px;fill: currentColor;height: 24px;pointer-events: none;color: #f5f5f5;">
-                                    <svg width="22" height="22">
-                                        <path d="M0 24 L12 12 L24 24"></path>
-                                    </svg></div>
-                                <!-- User menu -->
-
-                                <ul class="dropdown-search-list">
-                                    <li class="list-title">
-                                        Recent Searches
-                                    </li>
-                                    <li>
-                                        <a href="course-intro.html">
-                                            Ultimate Web Designer And Developer Course</a>
-                                    </li>
-                                    <li><a href="course-intro.html">
-                                            The Complete Ruby on Rails Developer Course </a>
-                                    </li>
-                                    <li><a href="course-intro.html">
-                                            Bootstrap 4 From Scratch With 5 Real Projects </a>
-                                    </li>
-                                    <li> <a href="course-intro.html">
-                                            The Complete 2020 Web Development Bootcamp </a>
-                                    </li>
-                                    <li class="menu-divider">
-                                    <li><a href="course-intro.html">
-                                            Bootstrap 4 From Scratch With 5 Real Projects </a>
-                                    </li>
-                                    <li> <a href="course-intro.html">
-                                            The Complete 2020 Web Development Bootcamp </a>
-                                    </li>
-                                </ul>
-
-                            </div>
-
+                            
 
 
                             <!-- User icons close mobile-->
@@ -142,7 +101,6 @@
                             <a href="#" class="header-widget-icon"
                                 uk-tooltip="title: My Courses ; pos: bottom ;offset:21">
                                 <i class="fa fa-youtube-play" aria-hidden="true" style="font-size: 21px;"></i>
-
                             </a>
 
                             <!-- courses dropdown List -->
@@ -337,7 +295,7 @@
 
                             <a href="#" class="header-widget-icon"
                                 uk-tooltip="title: Notificiation ; pos: bottom ;offset:21">
-                                <i class="fa fa-bell" aria-hidden="true" style="font-size: 20px;"></i>
+                                 <i class="fa fa-bell" aria-hidden="true" style="font-size: 20px;"></i>
                                 <span>4</span>
                             </a>
 
@@ -547,7 +505,7 @@
                                             <i class="icon-feather-help-circle"></i> Help</a>
                                     </li>
                                     <li><a href="page-login.html">
-                                            <i class="icon-feather-log-out"></i> Sign Out</a>
+                                            <i class="icon-feather-log-out"></i> Sing Out</a>
                                     </li>
                                 </ul>
 
@@ -595,235 +553,232 @@
 
 
 
-        <div class="page-content">
+        <div class="blog-article-single mt-9" data-src="../assets/images/blog/img-8.jpg" uk-img>
 
-            <div class="home-hero" data-src="../assets/images/home-hero.png" uk-img>
-                <div class="uk-width-1-1">
-                    <div class="page-content-inner uk-position-z-index">
-                        <h1>Learn HTML , CSS , iphone <br> Apps & More</h1>
-                        <h4 class="my-lg-4"> Learn how to build websites & apps <br> write a code or start a business
-                        </h4>
-                        <a href="#" class="btn btn-default">Free trailer </a>
-                    </div>
+            <div class="container-small">
+
+                <p class="blog-article-meta mb-3">
+                    <strong> Programming </strong>
+                    <a href="#"> Nataly Birch </a>
+                </p>
+
+                <h1> Highest Paying Countries for Software Developers in 2020. </h1>
+
+                <div class="blog-article-auther">
+                    <img src="../assets/images/avatars/avatar-3.jpg" alt="">
+                    <span class="blog-auther-user-name"> Jonathan Madano </span>
                 </div>
+
             </div>
 
-            <!-- Content
-        ================================================== -->
-
-            <div class="section">
-                <div class="page-content-inner">
-
-                    <div class="section-small text-md-left text-center">
-                        <div class="uk-child-width-1-2@m uk-gird-large uk-flex-middle" uk-grid>
-                            <div>
-                                <img src="../assets/images/feature.png" alt="">
-                            </div>
-                            <div>
-                                <h2>Learn to code anytime <br> and everywhere </h1>
-                                    <p> Get started with just your name and your email adress . It’s as simple <br> as
-                                        that
-                                        -- no payments or credit card information required. </p>
-                                    <a href="#" class="btn btn-soft-light"> Get started </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="section-small delimiter-top">
-
-                <div class="container-small">
-
-                    <div class="text-center mb-5">
-                        <h3> Check out our newest </h3>
-                        <h5> With our growing catalog of over 30 Nanodegree programs from beginner to advanced</h5>
-                    </div>
-                    <div class="course-grid-slider mt-lg-5" uk-slider="finite: true">
-                        <div class="uk-slider-container pb-3">
-                            <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid">
-                                <li>
-                                    <a href="course-intro.html">
-                                        <div class="course-card">
-                                            <div class="course-card-thumbnail ">
-                                                <img src="../assets/images/course/2.png">
-                                                <span class="play-button-trigger"></span>
-                                            </div>
-                                            <div class="course-card-body">
-                                                <div class="course-card-info">
-                                                    <div>
-                                                        <span class="catagroy">Angular</span>
-                                                    </div>
-                                                    <div>
-                                                        <i class="icon-feather-bookmark icon-small"></i>
-                                                    </div>
-                                                </div>
-                                                <h4>Learn Angular Fundamentals </h4>
-                                                <p> Learn how to build and launch React web applications using .. </p>
-                                                <div class="course-card-footer">
-                                                    <h5> <i class="icon-feather-film"></i> 12 Lectures </h5>
-                                                    <h5> <i class="icon-feather-clock"></i> 64 Hours </h5>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </a>
-
-                                </li>
-                                <li>
-                                    <a href="course-intro.html">
-                                        <div class="course-card">
-                                            <div class="course-card-thumbnail ">
-                                                <img src="../assets/images/course/3.png">
-                                                <span class="play-button-trigger"></span>
-                                            </div>
-                                            <div class="course-card-body">
-                                                <div class="course-card-info">
-                                                    <div>
-                                                        <span class="catagroy">JavaScript</span>
-                                                    </div>
-                                                    <div>
-                                                        <i class="icon-feather-bookmark icon-small"></i>
-                                                    </div>
-                                                </div>
-                                                <h4>The Complete JavaScript </h4>
-                                                <p> JavaScript is how you build interactivity on the web page... </p>
-                                                <div class="course-card-footer">
-                                                    <h5> <i class="icon-feather-film"></i> 14 Lectures </h5>
-                                                    <h5> <i class="icon-feather-clock"></i> 55 Hours </h5>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </a>
-
-                                </li>
-                                <li>
-                                    <a href="course-intro.html">
-                                        <div class="course-card">
-                                            <div class="course-card-thumbnail ">
-                                                <img src="../assets/images/course/1.png">
-                                                <span class="play-button-trigger"></span>
-                                            </div>
-                                            <div class="course-card-body">
-                                                <div class="course-card-info">
-                                                    <div>
-                                                        <span class="catagroy">HTML</span>
-                                                    </div>
-                                                    <div>
-                                                        <i class="icon-feather-bookmark icon-small"></i>
-                                                    </div>
-                                                </div>
-
-                                                <h4>Ultimate Web Developer Course </h4>
-                                                <p> HTML is the building blocks of the web. It gives pages structure ..
-                                                </p>
-
-                                                <div class="course-card-footer">
-                                                    <h5> <i class="icon-feather-film"></i> 33 Lectures </h5>
-                                                    <h5> <i class="icon-feather-clock"></i> 26 Hours </h5>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="course-intro.html">
-                                        <div class="course-card">
-                                            <div class="course-card-thumbnail ">
-                                                <img src="../assets/images/course/5.png">
-                                                <span class="play-button-trigger"></span>
-                                            </div>
-                                            <div class="course-card-body">
-                                                <div class="course-card-info">
-                                                    <div>
-                                                        <span class="catagroy">HTML</span>
-                                                    </div>
-                                                    <div>
-                                                        <i class="icon-feather-bookmark icon-small"></i>
-                                                    </div>
-                                                </div>
-
-                                                <h4>Ultimate Web Developer Course </h4>
-                                                <p> HTML is the building blocks of the web. It gives pages structure ..
-                                                </p>
-
-                                                <div class="course-card-footer">
-                                                    <h5> <i class="icon-feather-film"></i> 34 Lectures </h5>
-                                                    <h5> <i class="icon-feather-clock"></i> 54 Hours </h5>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-
-
-                            <a class="uk-position-center-left uk-position-small uk-hidden-hover slidenav-prev" href="#"
-                                uk-slider-item="previous"></a>
-                            <a class="uk-position-center-right uk-position-small uk-hidden-hover slidenav-next" href="#"
-                                uk-slider-item="next"></a>
-
-                        </div>
-                    </div>
-
-                    <div class="text-center">
-                        <a href="#" class="btn btn-soft-light btn-small btn-circle"> View More Courses</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section text-center">
-                <div class="page-content-inner">
-
-                    <h2 class="mb-4"> We've got the technical stuff covered. </h2>
-                    <img src="../assets/images/feature-2.png" alt="" class="my-lg-5">
-
-                </div>
-            </div>
-
-            <div class="section bg-white">
-                <div class="container-small">
-                    <h2 class="text-center my-lg-6"> Try Courseplus free for 14 days </h2>
-                    <form class="uk-grid-small d-flex align-items-end" uk-grid>
-                        <div class="uk-width-1-3@s">
-                            <div class="uk-form-label">Email </div>
-                            <input class="uk-input" type="text" placeholder="Enter your email address">
-                        </div>
-                        <div class="uk-width-1-3@s">
-                            <div class="uk-form-label">Password </div>
-                            <input class="uk-input" type="password" placeholder="******">
-                        </div>
-                        <div class="uk-width-1-3@s">
-                            <button class="btn  btn-light btn-lg"> Start free trailer </button>
-                        </div>
-                        <div class="uk-width-1-1@s">
-                            <label>
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input" id="customCheck1" type="checkbox">
-                                    <label class="custom-control-label" for="customCheck1"> 
-                                        <span class="checkmark uk-text-small"> I agree to the </span>
-                                <a href="pages-terms.html" target="_blank"
-                                    class="uk-text-bold uk-text-small uk-link-reset">
-                                    Terms and Conditions </a>
-
-                                    </label>
-                                </div>
-
-                                
-                            </label>
-                        </div>
-                    </form>
-                </div>
-            </div>
 
         </div>
 
+        <!-- Content
+        ================================================== -->
+        <div class="container p-0">
+
+
+            <!-- Blog Post Content -->
+
+            <div class="container-small blog-article-content-read">
+
+                <h3> Nam tempor soluta nobis eleifend option assum. </h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                    tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Nam liber tempor
+                    cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer
+                    possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                    consequat.</p>
+
+                <h4>5 Myths That Prevent Job Seekers from Overcoming Failure
+                </h4>
+
+
+                <p>In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus.
+                    Nulla
+                    eu
+                    mi magna. Etiam suscipit commodo gravida. Cras suscipit, quam vitae adipiscing
+                    faucibus,
+                    risus nibh laoreet odio, a porttitor metus eros ut enim. Morbi augue velit, tempus
+                    mattis
+                    dignissim nec, porta sed risus. Donec eget magna eu lorem tristique pellentesque
+                    eget eu
+                    dui. Fusce lacinia tempor malesuada. Ut lacus sapien, placerat a ornare nec,
+                    elementum
+                    sit
+                    amet felis. Maecenas pretium lorem hendrerit eros sagittis fermentum.</p>
+
+                <h4>5 Myths That Prevent Job Seekers from Overcoming Failure
+                </h4>
+
+                <p>Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus,
+                    eleifend
+                    euismod pellentesque vel, sagittis vel justo. In libero urna, venenatis sit amet
+                    ornare
+                    non,
+                    suscipit nec risus. Sed consequat justo non mauris pretium at tempor justo sodales.
+                    Quisque
+                    tincidunt laoreet malesuada. Cum sociis natoque penatibus et magnis dis parturient
+                    montes,
+                    nascetur ridiculus mus. Integer vitae ante enim. Fusce sed elit est. Suspendisse sit
+                    amet
+                    mauris in quam pretium faucibus et aliquam odio. </p>
+
+
+                <div class="my-lg-7">
+
+                    <h4>Author </h4>
+                    <div class="uk-card-default rounded px-3 pb-md-3 uk-flex uk-flex-between@m uk-flex-middle"
+                        uk-toggle="cls: uk-flex uk-flex-between@m uk-flex-middle; mode: media; media: @m">
+                        <div class="user-details-card">
+                            <div class="user-details-card-avatar">
+                                <img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                            </div>
+                            <div class="user-details-card-name">
+                                Stella Johnson <span> Developer <span> 1 year ago </span> </span>
+                            </div>
+                        </div>
+                        <div>
+                            <strong class="mx-3 uk-visible@s"> Share on </strong>
+
+                            <a href="#" class="btn btn-facebook  rounded-circle btn-icon-only transition-3d-hover">
+                                <span class="btn-inner--icon">
+                                    <i class="icon-brand-facebook-f"></i>
+                                </span>
+                            </a>
+
+                            <a href="#" class="btn btn-twitter rounded-circle btn-icon-only transition-3d-hover">
+                                <span class="btn-inner--icon">
+                                    <i class="icon-brand-twitter"></i>
+                                </span>
+                            </a>
+
+                            <a href="#" class="btn btn-google-plus rounded-circle btn-icon-only transition-3d-hover">
+                                <span class="btn-inner--icon">
+                                    <i class="icon-brand-google-plus-g"></i>
+                                </span>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="comments mt-4">
+                    <h4>Comments
+                        <span class="comments-amount">5210</span>
+                    </h4>
+
+                    <ul>
+                        <li>
+                            <div class="comments-avatar"><img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                            </div>
+                            <div class="comment-content">
+                                <div class="comment-by">Jonathan Madano <span>Student</span>
+                                    <a href="#" class="reply"><i class="icon-line-awesome-undo"></i> Reply</a>
+                                </div>
+                                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+                                    minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                                    aliquip ex ea commodo consequat. Nam liber tempor cum soluta nobis eleifend
+                                    option
+                                    congue </p>
+                            </div>
+
+                            <ul>
+                                <li>
+                                    <div class="comments-avatar"><img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                                    </div>
+                                    <div class="comment-content">
+                                        <div class="comment-by">Stella Johnson<span>Student</span>
+                                            <a href="#" class="reply"><i class="icon-line-awesome-undo"></i>
+                                                Reply</a>
+                                        </div>
+                                        <p> Nam liber tempor cum soluta nobis eleifend option congue ut laoreet
+                                            dolore
+                                            magna aliquam erat volutpat nihil imperdiet doming id quod mazim
+                                            placerat
+                                            facer possim assum. Lorem ipsum dolor sit amet</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="comments-avatar">
+                                        <img src="../assets/images/avatars/avatar-3.jpg" alt=""></div>
+                                    <div class="comment-content">
+
+                                        <div class="comment-by">Adrian Mohani <span>Student</span>
+                                            <a href="#" class="reply"><i class="icon-line-awesome-undo"></i>
+                                                Reply</a>
+                                        </div>
+                                        <p>tempor cum soluta nobis eleifend option congue ut laoreet dolore magna
+                                            aliquam erat volutpat.</p>
+                                    </div>
+
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li>
+                            <div class="comments-avatar"><img src="../assets/images/avatars/avatar-4.jpg" alt="">
+                            </div>
+                            <div class="comment-content">
+
+                                <div class="comment-by">Alex Dolgove<span>Student</span>
+                                    <a href="#" class="reply"><i class="icon-line-awesome-undo"></i> Reply</a>
+                                </div>
+                                <p>Nam liber tempor cum soluta nobis eleifend option congue ut laoreet dolore magna
+                                    aliquam erat volutpat nihil imperdiet doming id quod mazim placerat facer possim
+                                    assum. Lorem ipsum dolor sit amet</p>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="comments">
+                    <h4>Your Comment </h4>
+                    <ul>
+                        <li>
+                            <div class="comments-avatar"><img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                            </div>
+                            <div class="comment-content">
+                                <form class="uk-grid-small" uk-grid>
+                                    <div class="uk-width-1-2@s">
+                                        <label class="uk-form-label">Name</label>
+                                        <input class="uk-input" type="text" placeholder="Name">
+                                    </div>
+                                    <div class="uk-width-1-2@s">
+                                        <label class="uk-form-label">Email</label>
+                                        <input class="uk-input" type="text" placeholder="Email">
+                                    </div>
+                                    <div class="uk-width-1-1@s">
+                                        <label class="uk-form-label">Comment</label>
+                                        <textarea class="uk-textarea" placeholder="Enter Your Comments her..."
+                                            style=" height:160px"></textarea>
+                                    </div>
+                                    <div class="uk-grid-margin">
+                                        <input type="submit" value="submit" class="button success">
+                                    </div>
+                                </form>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
         <!-- footer
         ================================================== -->
+
         <div class="footer">
             <div class="container">
                 <div uk-grid>
@@ -842,7 +797,7 @@
                             <ul>
                                 <li><a href="course-card.html"> Courses </a></li>
                                 <li><a href="course-path.html"> Track </a></li>
-                                <li><a href="blog-main.html"> Blog </a></li>
+                                <li><a href="blog-card.html"> Blog </a></li>
                             </ul>
                         </div>
                     </div>
@@ -870,7 +825,7 @@
                 <hr>
                 <div class="uk-grid-collapse" uk-grid>
                     <div class="uk-width-expand@s uk-first-column">
-                        <p>© 2020 <strong></strong>. All Rights Reserved. </p>
+                        <p>© 2020  All Rights Reserved. </p>
                     </div>
                     <div class="uk-width-auto@s">
                         <nav class="footer-nav-icon">
@@ -887,6 +842,7 @@
         </div>
 
     </div>
+
 
     <!-- For Night mode -->
     <script>
@@ -931,8 +887,9 @@
     <script src="../assets/js/framework.js"></script>
     <script src="../assets/js/jquery-3.3.1.min.js"></script>
     <script src="../assets/js/mmenu.min.js"></script>
-    <!-- <script src="../assets/js/simplebar.js"></script> -->
+    <script src="../assets/js/simplebar.js"></script>
     <script src="../assets/js/main.js"></script>
 
 </body>
+
 </html>

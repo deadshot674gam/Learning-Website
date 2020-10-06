@@ -1,16 +1,14 @@
 <!doctype html>
 <html lang="en">
 
-
 <head>
 
     <!-- Basic Page Needs
     ================================================== -->
-    <title>Learning Website</title>
+    <title>Blogs</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-
 
     <!-- CSS 
     ================================================== -->
@@ -22,17 +20,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-
 </head>
 
 <body>
 
     <!-- Wrapper -->
-    <div id="wrapper" class="bg-white">
+    <div id="wrapper">
+
 
         <!-- Header Container
         ================================================== -->
-        <header class="header header-horizontal header bg-grey uk-light">
+        <header class="header header-horizontal">
 
             <div class="container">
                 <nav uk-navbar>
@@ -51,7 +49,7 @@
 
                         <!-- logo -->
                         <a href="dashboard.html" class="logo">
-                            <img src="http://demo.foxthemes.net/courseplusv3.3/assets/images/logo-dark.svg" alt="">
+                            <!-- <img src="http://demo.foxthemes.net/courseplusv3.3/assets/images/logo-dark.svg" alt=""> -->
                             <span> Courseplus</span>
                         </a>
 
@@ -60,19 +58,22 @@
                         <nav id="navigation">
                             <ul id="responsive">
                                 <li><a href="#">Home</a> </li>
-                                <li><a href="course-card.html">Explore</a></li>
+                                <li><a href="#">Explore</a></li>
                                 <li><a href="book.html">Book</a> </li>
                                 <li><a href="blog-main.html">Blog</a> </li>
                                 <li><a href="#">Pages</a>
                                     <ul class="dropdown-nav">
+                                        
                                         <li><a href="page-term.html">Terms</a></li>
                                         <li><a href="page-contact.html">Contact</a></li>
                                         <li><a href="#">Account</a>
                                             <ul class="dropdown-nav">
                                                 <li><a href="page-login.html">login</a></li>
                                                 <li><a href="page-register.html">register</a></li>
+                                                
                                             </ul>
                                         </li>
+                                       
                                     </ul>
                                 </li>
                             </ul>
@@ -88,52 +89,9 @@
 
                         <div class="header-widget">
 
-                            <div class="searchbox uk-visible@s">
+                            
 
-                                <input class="uk-search-input" type="search" placeholder="Search...">
-                                <button class="btn-searchbox"> </button>
-
-                            </div>
-                            <!-- Search box dropdown -->
-                            <div uk-dropdown="pos: top;mode:click;animation: uk-animation-slide-bottom-small"
-                                class="dropdown-search">
-                                <div class="erh BR9 MIw"
-                                    style="top: -27px;position: absolute ; left: 24px;fill: currentColor;height: 24px;pointer-events: none;color: #f5f5f5;">
-                                    <svg width="22" height="22">
-                                        <path d="M0 24 L12 12 L24 24"></path>
-                                    </svg></div>
-                                <!-- User menu -->
-
-                                <ul class="dropdown-search-list">
-                                    <li class="list-title">
-                                        Recent Searches
-                                    </li>
-                                    <li>
-                                        <a href="course-intro.html">
-                                            Ultimate Web Designer And Developer Course</a>
-                                    </li>
-                                    <li><a href="course-intro.html">
-                                            The Complete Ruby on Rails Developer Course </a>
-                                    </li>
-                                    <li><a href="course-intro.html">
-                                            Bootstrap 4 From Scratch With 5 Real Projects </a>
-                                    </li>
-                                    <li> <a href="course-intro.html">
-                                            The Complete 2020 Web Development Bootcamp </a>
-                                    </li>
-                                    <li class="menu-divider">
-                                    <li><a href="course-intro.html">
-                                            Bootstrap 4 From Scratch With 5 Real Projects </a>
-                                    </li>
-                                    <li> <a href="course-intro.html">
-                                            The Complete 2020 Web Development Bootcamp </a>
-                                    </li>
-                                </ul>
-
-                            </div>
-
-
-
+                            
                             <!-- User icons close mobile-->
                             <span class="icon-feather-x icon-small uk-hidden@s"
                                 uk-toggle="target: .header-widget ; cls: is-active"> </span>
@@ -142,7 +100,6 @@
                             <a href="#" class="header-widget-icon"
                                 uk-tooltip="title: My Courses ; pos: bottom ;offset:21">
                                 <i class="fa fa-youtube-play" aria-hidden="true" style="font-size: 21px;"></i>
-
                             </a>
 
                             <!-- courses dropdown List -->
@@ -547,7 +504,7 @@
                                             <i class="icon-feather-help-circle"></i> Help</a>
                                     </li>
                                     <li><a href="page-login.html">
-                                            <i class="icon-feather-log-out"></i> Sign Out</a>
+                                            <i class="icon-feather-log-out"></i> Sing Out</a>
                                     </li>
                                 </ul>
 
@@ -594,236 +551,265 @@
         </div>
 
 
-
+        <!-- contents
+        ================================================== -->
         <div class="page-content">
 
-            <div class="home-hero" data-src="../assets/images/home-hero.png" uk-img>
-                <div class="uk-width-1-1">
-                    <div class="page-content-inner uk-position-z-index">
-                        <h1>Learn HTML , CSS , iphone <br> Apps & More</h1>
-                        <h4 class="my-lg-4"> Learn how to build websites & apps <br> write a code or start a business
-                        </h4>
-                        <a href="#" class="btn btn-default">Free trailer </a>
-                    </div>
+            <div class="page-content-inner">
+
+                <h2> articles </h2>
+
+                <div uk-toggle="cls: uk-flex uk-flex-between@m uk-flex-middle; mode: media; media: @m">
+
+                    <nav class="responsive-tab mb-4 style-1">
+                        <ul>
+                            <li class="uk-active"><a href="#">JavaScript</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">Freebie</a></li>
+                            <li><a href="#">Resources</a></li>
+                        </ul>
+                    </nav>
+
+                    
+
                 </div>
-            </div>
 
-            <!-- Content
-        ================================================== -->
 
-            <div class="section">
-                <div class="page-content-inner">
+                <div class="uk-grid-large" uk-grid>
 
-                    <div class="section-small text-md-left text-center">
-                        <div class="uk-child-width-1-2@m uk-gird-large uk-flex-middle" uk-grid>
-                            <div>
-                                <img src="../assets/images/feature.png" alt="">
-                            </div>
-                            <div>
-                                <h2>Learn to code anytime <br> and everywhere </h1>
-                                    <p> Get started with just your name and your email adress . It’s as simple <br> as
-                                        that
-                                        -- no payments or credit card information required. </p>
-                                    <a href="#" class="btn btn-soft-light"> Get started </a>
+                    <div class="uk-width-expand@m">
+
+                        <!--blog 1-->
+                        <div class="blog-article">
+                            <a href="blog-single.html">
+                                <h2>10 Interesting JavaScript and CSS Libraries for November 2020 </h2>
+                            </a>
+                            <p class="blog-articl-meta">
+                                <strong> Bootstrap </strong>
+                                <a href="user-profile.html"> Nataly Birch </a>
+                                •
+                                <span> 24 October </span>
+                            </p>
+                            <a href="blog-single.html">
+                                <div class="blog-article-thumbnail">
+                                    <div class="blog-article-thumbnail-inner">
+                                        <img src="../assets/images/blog/img-3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <p class="blog-article-content">Nam liber tempor cum soluta nobis eleifend option congue
+                                nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum mayi dolor
+                                sit amet, conse ctetuer adipiscing elit, nibh euismod tincidunt ut laoreet<a
+                                    href="blog-single.html"> Read more ..</a>
+                            </p>
+                        </div>
+
+
+                        <!-- blog 2 -->
+                        <div class="blog-article">
+                            <a href="blog-single.html">
+                                <h2>Learn New 10 Interesting JavaScript and CSS libraries for 2020 </h2>
+                            </a>
+                            <p class="blog-articl-meta">
+                                <strong> Bootstrap </strong>
+                                <a href="user-profile.html"> Nataly Birch </a>
+                                •
+                                <span> 24 October </span>
+                            </p>
+                            <a href="blog-single.html">
+                                <div class="blog-article-thumbnail">
+                                    <div class="blog-article-thumbnail-inner">
+                                        <img src="../assets/images/blog/img-4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <p class="blog-article-content">Nam liber tempor cum soluta nobis eleifend option congue
+                                nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum mayi dolor
+                                sit amet, conse ctetuer adipiscing elit, nibh euismod tincidunt ut laoreet<a
+                                    href="blog-single.html"> Read more ..</a>
+                            </p>
+                        </div>
+
+                        <!-- blog 3 -->
+                        <div class="blog-article">
+                            <a href="blog-single.html">
+                                <h2> 10 amazing web demos and experiments </h2>
+                            </a>
+                            <p class="blog-articl-meta">
+                                <strong> Software </strong>
+                                <a href="user-profile.html"> Nataly Birch </a>
+                                •
+                                <span> 24 October </span>
+                            </p>
+                            <a href="blog-single.html">
+                                <div class="blog-article-thumbnail">
+                                    <div class="blog-article-thumbnail-inner">
+                                        <img src="../assets/images/blog/img-1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <p class="blog-article-content">Nam liber tempor cum soluta nobis eleifend option congue
+                                nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum mayi dolor
+                                sit amet, conse ctetuer adipiscing elit, nibh euismod tincidunt ut laoreet<a
+                                    href="blog-single.html"> Read more ..</a>
+                            </p>
+                        </div>
+
+                        <!-- blog 4 -->
+                        <div class="blog-article">
+                            <a href="blog-single.html">
+                                <h2> Learn 10 Awesome Web Dev Tools and Resources For 2020 </h2>
+                            </a>
+                            <p class="blog-articl-meta">
+                                <strong> Bootstrap </strong>
+                                <a href="user-profile.html"> Nataly Birch </a>
+                                •
+                                <span> 24 October </span>
+                            </p>
+                            <a href="blog-single.html">
+                                <div class="blog-article-thumbnail">
+                                    <div class="blog-article-thumbnail-inner">
+                                        <img src="../assets/images/blog/img-2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <p class="blog-article-content">Nam liber tempor cum soluta nobis eleifend option congue
+                                nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum mayi dolor
+                                sit amet, conse ctetuer adipiscing elit, nibh euismod tincidunt ut laoreet<a
+                                    href="blog-single.html"> Read more ..</a>
+                            </p>
+                        </div>
+
+
+
+                        <!-- pagination menu -->
+                        <ul class="uk-pagination my-5 uk-flex-center" uk-margin>
+                            <li><a href="#"><span uk-pagination-previous></span></a></li>
+                            <li class="uk-disabled"><span>...</span></li>
+                            <li><a href="#">4</a></li>
+                            <li class="uk-active"><span>7</span></li>
+                            <li><a href="#">8</a></li>
+                            <li><a href="#">10</a></li>
+                            <li class="uk-disabled"><span>...</span></li>
+                            <li><a href="#"><span uk-pagination-next></span></a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="uk-width-1-3@s">
+
+                        <div class="uk-card-default rounded uk-overflow-hidden">
+                            <div class="p-4 text-center">
+
+                                <h4 class="uk-text-bold"> Subsicribe </h4>
+                                <p> Get the Latest Posts and Article for us On Your Email</p>
+
+                                <form class="mt-3">
+                                    <input type="text" class="uk-input uk-form-small"
+                                        placeholder="Enter your email address">
+                                    <input type="submit" value="Subscirbe" class="btn btn-default  btn-block mt-3">
+                                </form>
+
                             </div>
                         </div>
-                    </div>
 
-                </div>
-            </div>
+                        <div class="uk-card-default rounded mt-4">
 
-            <div class="section-small delimiter-top">
+                            <ul class="uk-child-width-expand uk-tab"
+                                uk-switcher="animation: uk-animation-fade">
+                                <li><a href="#">Newest</a></li>
+                                <li><a href="#">Popular</a></li>
+                            </ul>
 
-                <div class="container-small">
-
-                    <div class="text-center mb-5">
-                        <h3> Check out our newest </h3>
-                        <h5> With our growing catalog of over 30 Nanodegree programs from beginner to advanced</h5>
-                    </div>
-                    <div class="course-grid-slider mt-lg-5" uk-slider="finite: true">
-                        <div class="uk-slider-container pb-3">
-                            <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid">
+                            <ul class="uk-switcher">
+                                <!-- tab 1 -->
                                 <li>
-                                    <a href="course-intro.html">
-                                        <div class="course-card">
-                                            <div class="course-card-thumbnail ">
-                                                <img src="../assets/images/course/2.png">
-                                                <span class="play-button-trigger"></span>
-                                            </div>
-                                            <div class="course-card-body">
-                                                <div class="course-card-info">
-                                                    <div>
-                                                        <span class="catagroy">Angular</span>
-                                                    </div>
-                                                    <div>
-                                                        <i class="icon-feather-bookmark icon-small"></i>
-                                                    </div>
-                                                </div>
-                                                <h4>Learn Angular Fundamentals </h4>
-                                                <p> Learn how to build and launch React web applications using .. </p>
-                                                <div class="course-card-footer">
-                                                    <h5> <i class="icon-feather-film"></i> 12 Lectures </h5>
-                                                    <h5> <i class="icon-feather-clock"></i> 64 Hours </h5>
-                                                </div>
-                                            </div>
+                                    <div class="py-3 px-4">
 
+                                        <div class="uk-grid-small" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <p> Overview of SQL Commands and PDO </p>
+                                            </div>
+                                            <div class="uk-width-1-3">
+                                                <img src="../assets/images/blog/img-3.jpg" alt="" class="rounded-sm">
+                                            </div>
                                         </div>
-                                    </a>
+                                        <div class="uk-grid-small" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <p> Writing a Simple MVC App in Plain </p>
+                                            </div>
+                                            <div class="uk-width-1-3">
+                                                <img src="../assets/images/blog/img-2.jpg" alt="" class="rounded-sm">
+                                            </div>
+                                        </div>
+                                        <div class="uk-grid-small" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <p> How to Create and Use Bash Scripts </p>
+                                            </div>
+                                            <div class="uk-width-1-3">
+                                                <img src="../assets/images/blog/img-3.jpg" alt="" class="rounded-sm">
+                                            </div>
+                                        </div>
 
+                                    </div>
                                 </li>
+
+                                <!-- tab 2 -->
                                 <li>
-                                    <a href="course-intro.html">
-                                        <div class="course-card">
-                                            <div class="course-card-thumbnail ">
-                                                <img src="../assets/images/course/3.png">
-                                                <span class="play-button-trigger"></span>
-                                            </div>
-                                            <div class="course-card-body">
-                                                <div class="course-card-info">
-                                                    <div>
-                                                        <span class="catagroy">JavaScript</span>
-                                                    </div>
-                                                    <div>
-                                                        <i class="icon-feather-bookmark icon-small"></i>
-                                                    </div>
-                                                </div>
-                                                <h4>The Complete JavaScript </h4>
-                                                <p> JavaScript is how you build interactivity on the web page... </p>
-                                                <div class="course-card-footer">
-                                                    <h5> <i class="icon-feather-film"></i> 14 Lectures </h5>
-                                                    <h5> <i class="icon-feather-clock"></i> 55 Hours </h5>
-                                                </div>
-                                            </div>
+                                    <div class="py-3 px-4">
 
+                                        <div class="uk-grid-small" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <p> Overview of SQL Commands and PDO </p>
+                                            </div>
+                                            <div class="uk-width-1-3">
+                                                <img src="../assets/images/blog/img-3.jpg" alt="" class="rounded-sm">
+                                            </div>
                                         </div>
-                                    </a>
-
-                                </li>
-                                <li>
-                                    <a href="course-intro.html">
-                                        <div class="course-card">
-                                            <div class="course-card-thumbnail ">
-                                                <img src="../assets/images/course/1.png">
-                                                <span class="play-button-trigger"></span>
+                                        <div class="uk-grid-small" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <p> Writing a Simple MVC App in Plain </p>
                                             </div>
-                                            <div class="course-card-body">
-                                                <div class="course-card-info">
-                                                    <div>
-                                                        <span class="catagroy">HTML</span>
-                                                    </div>
-                                                    <div>
-                                                        <i class="icon-feather-bookmark icon-small"></i>
-                                                    </div>
-                                                </div>
-
-                                                <h4>Ultimate Web Developer Course </h4>
-                                                <p> HTML is the building blocks of the web. It gives pages structure ..
-                                                </p>
-
-                                                <div class="course-card-footer">
-                                                    <h5> <i class="icon-feather-film"></i> 33 Lectures </h5>
-                                                    <h5> <i class="icon-feather-clock"></i> 26 Hours </h5>
-                                                </div>
+                                            <div class="uk-width-1-3">
+                                                <img src="../assets/images/blog/img-2.jpg" alt="" class="rounded-sm">
                                             </div>
-
                                         </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="course-intro.html">
-                                        <div class="course-card">
-                                            <div class="course-card-thumbnail ">
-                                                <img src="../assets/images/course/5.png">
-                                                <span class="play-button-trigger"></span>
+                                        <div class="uk-grid-small" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <p> How to Create and Use Bash Scripts </p>
                                             </div>
-                                            <div class="course-card-body">
-                                                <div class="course-card-info">
-                                                    <div>
-                                                        <span class="catagroy">HTML</span>
-                                                    </div>
-                                                    <div>
-                                                        <i class="icon-feather-bookmark icon-small"></i>
-                                                    </div>
-                                                </div>
-
-                                                <h4>Ultimate Web Developer Course </h4>
-                                                <p> HTML is the building blocks of the web. It gives pages structure ..
-                                                </p>
-
-                                                <div class="course-card-footer">
-                                                    <h5> <i class="icon-feather-film"></i> 34 Lectures </h5>
-                                                    <h5> <i class="icon-feather-clock"></i> 54 Hours </h5>
-                                                </div>
+                                            <div class="uk-width-1-3">
+                                                <img src="../assets/images/blog/img-3.jpg" alt="" class="rounded-sm">
                                             </div>
-
                                         </div>
-                                    </a>
+
+                                    </div>
                                 </li>
                             </ul>
 
-
-                            <a class="uk-position-center-left uk-position-small uk-hidden-hover slidenav-prev" href="#"
-                                uk-slider-item="previous"></a>
-                            <a class="uk-position-center-right uk-position-small uk-hidden-hover slidenav-next" href="#"
-                                uk-slider-item="next"></a>
-
                         </div>
+
+                        <h4 class="mt-4"> Tags </h4>
+                        <div uk-margin>
+                            <a href="#" class="btn btn-small btn-light">#Webdesing</a>
+                            <a href="#" class="btn btn-small btn-light">#Business</a>
+                            <a href="#" class="btn btn-small btn-light">#Programming</a>
+                            <a href="#" class="btn btn-small btn-light">#Hacking</a>
+                        </div>
+
+
                     </div>
 
-                    <div class="text-center">
-                        <a href="#" class="btn btn-soft-light btn-small btn-circle"> View More Courses</a>
-                    </div>
                 </div>
-            </div>
 
-            <div class="section text-center">
-                <div class="page-content-inner">
-
-                    <h2 class="mb-4"> We've got the technical stuff covered. </h2>
-                    <img src="../assets/images/feature-2.png" alt="" class="my-lg-5">
-
-                </div>
-            </div>
-
-            <div class="section bg-white">
-                <div class="container-small">
-                    <h2 class="text-center my-lg-6"> Try Courseplus free for 14 days </h2>
-                    <form class="uk-grid-small d-flex align-items-end" uk-grid>
-                        <div class="uk-width-1-3@s">
-                            <div class="uk-form-label">Email </div>
-                            <input class="uk-input" type="text" placeholder="Enter your email address">
-                        </div>
-                        <div class="uk-width-1-3@s">
-                            <div class="uk-form-label">Password </div>
-                            <input class="uk-input" type="password" placeholder="******">
-                        </div>
-                        <div class="uk-width-1-3@s">
-                            <button class="btn  btn-light btn-lg"> Start free trailer </button>
-                        </div>
-                        <div class="uk-width-1-1@s">
-                            <label>
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input" id="customCheck1" type="checkbox">
-                                    <label class="custom-control-label" for="customCheck1"> 
-                                        <span class="checkmark uk-text-small"> I agree to the </span>
-                                <a href="pages-terms.html" target="_blank"
-                                    class="uk-text-bold uk-text-small uk-link-reset">
-                                    Terms and Conditions </a>
-
-                                    </label>
-                                </div>
-
-                                
-                            </label>
-                        </div>
-                    </form>
-                </div>
             </div>
 
         </div>
 
         <!-- footer
         ================================================== -->
+
         <div class="footer">
             <div class="container">
                 <div uk-grid>
@@ -870,7 +856,7 @@
                 <hr>
                 <div class="uk-grid-collapse" uk-grid>
                     <div class="uk-width-expand@s uk-first-column">
-                        <p>© 2020 <strong></strong>. All Rights Reserved. </p>
+                        <p>© 2020 All Rights Reserved. </p>
                     </div>
                     <div class="uk-width-auto@s">
                         <nav class="footer-nav-icon">
@@ -887,6 +873,7 @@
         </div>
 
     </div>
+
 
     <!-- For Night mode -->
     <script>
@@ -925,14 +912,149 @@
         })(window, document);
     </script>
 
+    <!--  Select Dropdown  -->
+    <script>
+        window.onload = function () {
+            crear_select();
+        }
+
+        var Navegador_ = (window.navigator.userAgent || window.navigator.vendor || window.opera),
+            Firfx = /Firefox/i.test(Navegador_),
+            Mobile_ = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(Navegador_),
+            FirfoxMobile = (Firfx && Mobile_);
+
+        var li = new Array();
+
+        function crear_select() {
+            var div_cont_select = document.querySelectorAll("[data-mate-select='active']");
+            var select_ = '';
+            for (var e = 0; e < div_cont_select.length; e++) {
+                div_cont_select[e].setAttribute('data-indx-select', e);
+                div_cont_select[e].setAttribute('data-selec-open', 'false');
+                var ul_cont = document.querySelectorAll("[data-indx-select='" + e +
+                    "'] > .cont_list_select_mate > ul");
+                select_ = document.querySelectorAll("[data-indx-select='" + e + "'] >select")[0];
+                if (Mobile_ || FirfoxMobile) {
+                    select_.addEventListener('change', function () {
+                        _select_option(select_.selectedIndex, e);
+                    });
+                }
+                var select_optiones = select_.options;
+                document.querySelectorAll("[data-indx-select='" + e + "']  > .selecionado_opcion ")[0].setAttribute(
+                    'data-n-select', e);
+                document.querySelectorAll("[data-indx-select='" + e + "']  > .icon_select_mate ")[0].setAttribute(
+                    'data-n-select', e);
+                for (var i = 0; i < select_optiones.length; i++) {
+                    li[i] = document.createElement('li');
+                    if (select_optiones[i].selected == true || select_.value == select_optiones[i].innerHTML) {
+                        li[i].className = 'active';
+                        document.querySelector("[data-indx-select='" + e + "']  > .selecionado_opcion ").innerHTML =
+                            select_optiones[i].innerHTML;
+                    };
+                    li[i].setAttribute('data-index', i);
+                    li[i].setAttribute('data-selec-index', e);
+                    // funcion click al selecionar 
+                    li[i].addEventListener('click', function () {
+                        _select_option(this.getAttribute('data-index'), this.getAttribute(
+                            'data-selec-index'));
+                    });
+
+                    li[i].innerHTML = select_optiones[i].innerHTML;
+                    ul_cont[0].appendChild(li[i]);
+
+                }; // Fin For select_optiones
+            }; // fin for divs_cont_select
+        } // Fin Function 
+
+
+
+        var cont_slc = 0;
+
+        function open_select(idx) {
+            var idx1 = idx.getAttribute('data-n-select');
+            var ul_cont_li = document.querySelectorAll("[data-indx-select='" + idx1 + "'] .cont_select_int > li");
+            var hg = 0;
+            var slect_open = document.querySelectorAll("[data-indx-select='" + idx1 + "']")[0].getAttribute(
+                'data-selec-open');
+            var slect_element_open = document.querySelectorAll("[data-indx-select='" + idx1 + "'] select")[0];
+            if (Mobile_ || FirfoxMobile) {
+                if (window.document.createEvent) { // All
+                    var evt = window.document.createEvent("MouseEvents");
+                    evt.initMouseEvent("mousedown", false, true, window, 0, 0, 0, 0, 0, false, false, false, false,
+                        0,
+                        null);
+                    slect_element_open.dispatchEvent(evt);
+                } else if (slect_element_open.fireEvent) { // IE
+                    slect_element_open.fireEvent("onmousedown");
+                }
+            } else {
+
+
+                for (var i = 0; i < ul_cont_li.length; i++) {
+                    hg += ul_cont_li[i].offsetHeight;
+                };
+                if (slect_open == 'false') {
+                    document.querySelectorAll("[data-indx-select='" + idx1 + "']")[0].setAttribute(
+                        'data-selec-open',
+                        'true');
+                    document.querySelectorAll("[data-indx-select='" + idx1 + "'] > .cont_list_select_mate > ul")[0]
+                        .style.height = hg + "px";
+                    document.querySelectorAll("[data-indx-select='" + idx1 + "'] > .icon_select_mate")[0].style
+                        .transform = 'rotate(180deg)';
+                } else {
+                    document.querySelectorAll("[data-indx-select='" + idx1 + "']")[0].setAttribute(
+                        'data-selec-open',
+                        'false');
+                    document.querySelectorAll("[data-indx-select='" + idx1 + "'] > .icon_select_mate")[0].style
+                        .transform = 'rotate(0deg)';
+                    document.querySelectorAll("[data-indx-select='" + idx1 + "'] > .cont_list_select_mate > ul")[0]
+                        .style.height = "0px";
+                }
+            }
+
+        } // fin function open_select
+
+        function salir_select(indx) {
+            var select_ = document.querySelectorAll("[data-indx-select='" + indx + "'] > select")[0];
+            document.querySelectorAll("[data-indx-select='" + indx + "'] > .cont_list_select_mate > ul")[0].style
+                .height = "0px";
+            document.querySelector("[data-indx-select='" + indx + "'] > .icon_select_mate").style.transform =
+                'rotate(0deg)';
+            document.querySelectorAll("[data-indx-select='" + indx + "']")[0].setAttribute('data-selec-open',
+                'false');
+        }
+
+
+        function _select_option(indx, selc) {
+            if (Mobile_ || FirfoxMobile) {
+                selc = selc - 1;
+            }
+            var li_s = document.querySelectorAll("[data-indx-select='" + selc + "'] .cont_select_int > li");
+            var p_act = document.querySelectorAll("[data-indx-select='" + selc + "'] > .selecionado_opcion")[0]
+                .innerHTML = li_s[indx].innerHTML;
+            var select_optiones = document.querySelectorAll("[data-indx-select='" + selc + "'] > select > option");
+            for (var i = 0; i < li_s.length; i++) {
+                if (li_s[i].className == 'active') {
+                    li_s[i].className = '';
+                };
+                li_s[indx].className = 'active';
+
+            };
+            select_optiones[indx].selected = true;
+            salir_select(selc);
+        }
+    </script>
+
 
     <!-- javaScripts
                 ================================================== -->
     <script src="../assets/js/framework.js"></script>
     <script src="../assets/js/jquery-3.3.1.min.js"></script>
     <script src="../assets/js/mmenu.min.js"></script>
-    <!-- <script src="../assets/js/simplebar.js"></script> -->
+    <script src="../assets/js/simplebar.js"></script>
     <script src="../assets/js/main.js"></script>
 
 </body>
+
+
 </html>
